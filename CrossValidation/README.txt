@@ -1,0 +1,2 @@
+File: ExamPerformanceDataset.py
+This file is to practice using Pandas and to practice cross-validation. The data is split into 5 equally-sized folds, from from which one is selected as the test fold while the others are combined to make the training set. This process is done for each fold with each classifier and the mean error of the all test folds is calculated for each classifier. The classifier with the lowest mean error is selected.
